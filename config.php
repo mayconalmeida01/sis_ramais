@@ -4,7 +4,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$dbname = "empresa";
+$dbname = "sis_ramais";
 
 // Conectar ao banco
 $conn = new mysqli($host, $user, $pass, $dbname);
