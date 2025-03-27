@@ -8,10 +8,14 @@
 }
 
 .body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #3766AF;
-
-  width: 100vw;
-  /* height: 60vh; */
+  width: 95vw;
+  height: auto;
+  margin: auto; /*CENTRALIZAR*/
+  margin-bottom: 3rem;
 }
 
 /* --------------------------------- */
@@ -20,10 +24,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   border-radius: 1rem;
-  height: auto;
   background-color: #18396f;
   color: #fffffff2;
+}
+
+.img-container {
+  margin-top: .5rem;
+  width: 12rem;
+  height: 6rem;
+}
+
+.img-container img{
+  width: 100%;
 }
 
 .main-container {
@@ -31,7 +45,7 @@
 }
 
 .body h2 {
-  padding-top: .8rem;
+  padding-top: .3rem;
   padding-bottom: .8rem;
   text-align: center;
   /* text-transform: uppercase; */

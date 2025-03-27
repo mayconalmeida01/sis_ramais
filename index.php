@@ -15,10 +15,13 @@
 </head>
 <body class="body mt-5">
     <div class="container">
+        <div class="img-container">
+            <img src="img/logo/ItpLogo.webp" alt="">
+        </div>
     <div class="main-container">
     <h2 class="">Buscador de Ramal</h2>
-    <input type="text" id="busca" class="form-control" placeholder="Digite setor, nome ou ramal">
-    <table class="table mt-3">
+    <input type="text" id="busca" class="form-control" placeholder="Digite setor, nome ou ramal e clique no botão Enter">
+    <table class="table mt-3 ">
         <thead>
             <tr>
                 <th>Colaborador:</th>
@@ -35,3 +38,4 @@
 
 </body>
 </html>
+ 
